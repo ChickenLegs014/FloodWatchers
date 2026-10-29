@@ -14,3 +14,17 @@
 
 ## Tech Stack
 - Languages: HTML, CSS, Python
+
+Phase 1:
+Warren: Project Title & Description / Structured Problem Analysis (Analytical Thinking) / Initial Solution Exploration (Creative Thinking) / Expected Features & Functionality / Preliminary Data Model Sketch (Technical Foundation) / Technologies, Roles, & Timeline / Tips & Recommendations
+Aaron: Preliminary Data Model Sketch (Technical Foundation) / Technologies, Roles, & Timeline
+
+Phase 2:
+Warren: Requirements Document (Functional & Non-Functional) / Design Document (Architecture & Data) / Logic Visualization (Pseudocode / Flowcharts)
+Aaron: Design Document (Architecture & Data) / Logic Visualization (Pseudocode / Flowcharts) / User Interface Design
+
+Phase 3:
+Warren: Deliverables Checklist & GitHub Activities / UI Foundation
+Aaron: Algorithmic Implementation / Modular Structure / Data & Persistence Layer Setup
+
+## undetermind (Risk Mitigation)
