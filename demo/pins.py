@@ -2,6 +2,7 @@
 Authors     : Aaron Sapp & Warren Nixon
 Date        : Oct. 31, 2026
 Course      : CSCI Special Topics: Problem Solving
+Assignment  : Project Phase 3: Development - Part 1 (Core Logic)
 Module      : pins.py
 Description : User can create, delete, and view pins
 '''
