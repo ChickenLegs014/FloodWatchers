@@ -1,7 +1,7 @@
 '''
 Authors     : Aaron Sapp & Warren Nixon
 Date        : Oct. 31, 2026
-Course      : CSCI-2996-A01-Special Topics: Problem Solving
+Course      : CSCI Special Topics: Problem Solving
 Module      : map.py
 Description : Creates a window with an interactive map
 '''
