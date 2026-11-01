@@ -1,4 +1,10 @@
-# Pins Demo
+'''
+Authors     : Aaron Sapp & Warren Nixon
+Date        : Oct. 31, 2026
+Course      : CSCI-2996-A01-SPECIAL TOPICS: Problem Solving
+Module      : pins.py
+Description : User can create, delete, and view pins
+'''
 
 # User class
 class User:
