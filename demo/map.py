@@ -1,3 +1,11 @@
+'''
+Authors      : Aaron Sapp
+Date        : Oct. 5, 2026
+Course      : CSCI-2996-A01-SPECIAL TOPICS: Problem Solving
+Module      : map.py
+Description : Creates a window with an interactive map
+'''
+
 import streamlit as st
 import leafmap.foliumap as leafmap
 
