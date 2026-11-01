@@ -1,5 +1,5 @@
 '''
-Authors      : Aaron Sapp
+Authors     : Aaron Sapp
 Date        : Oct. 5, 2026
 Course      : CSCI-2996-A01-SPECIAL TOPICS: Problem Solving
 Module      : map.py
