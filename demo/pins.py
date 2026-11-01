@@ -14,7 +14,7 @@ class User:
         self.pins = []
 
     # Main
-    # Where most of the code goes
+    # Handles most of the operations
     def main(self):
         print("----- Pins -----")
         print(" - Create a Pin")
