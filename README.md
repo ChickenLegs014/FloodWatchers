@@ -6,8 +6,8 @@
 ## Team Members
 | Name | Role | GitHub Profile | Contact | 
 | :--- | :--- | :--- | :---|
-| Warren | Team Lead / Programmer | @ChickenLegs014 (https://github.com/ChickenLegs014) | warrenn@nmsu.edu |
-| Aaron | Programmer / Tester | @aasa19 (https://github.com/aasa19) | aaronchs@nmsu.edu |
+| Warren | Team Lead / Programmer / Tester | @ChickenLegs014 (https://github.com/ChickenLegs014) | warrenn@nmsu.edu |
+| Aaron | Co-Lead / Programmer / Tester | @aasa19 (https://github.com/aasa19) | aaronchs@nmsu.edu |
 
 ## Project Overview
 - Application that determines which areas are flooded and which ones are not
@@ -27,4 +27,12 @@ Phase 3:
 - Warren: Deliverables Checklist & GitHub Activities / UI Foundation
 - Aaron: Algorithmic Implementation / Modular Structure / Data & Persistence Layer Setup
 
-## undetermind (Risk Mitigation)
+Phase 4:
+- Warren: ?
+- Aaron: ?
+
+Phase 5:
+- Warren: ?
+- Aaron: ?
+
+## Undetermined (Risk Mitigation)
