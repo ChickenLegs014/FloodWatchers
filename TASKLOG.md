@@ -16,7 +16,7 @@
 ## Individual Contribution Summaries
 
 ### Warren
-- Phase 1: ?
+- Phase 1: Project Title & Description / Structured Problem Analysis (Analytical Thinking) / Initial Solution Exploration (Creative Thinking) / Expected Features & Functionality / Preliminary Data Model Sketch (Technical Foundation) / Technologies, Roles, & Timeline / Tips & Recommendations
 - Phase 2: ?
 
 ### Aaron
