@@ -1,0 +1,5 @@
+from pyscript import document
+
+print("Hello, Worldv2!")
+output_div = document.querySelector("#output")
+output_div.innerText = "Hello, World!"
