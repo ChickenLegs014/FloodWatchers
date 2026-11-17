@@ -13,9 +13,9 @@ body {
 }
 
 /* Boxes: header, side panels */
-header aside {
-  background: #ffffff;
-  border: 2px solid #14211f;
+header, aside {
+  background: white;
+  border: 2px solid black;
   border-radius: 6px;
 }
 
@@ -24,10 +24,14 @@ header {
   text-align: center;
 }
 
-header h1 { margin: 0 0 4px; }
-header p { margin: 0; }
+header h1 {
+  margin: 0 0 4px;
+}
+header p {
+  margin: 0;
+}
 
-/* Three columns: Pins | Map | Area warnings */
+/* Three columns: Area warnings | Map | Pins */
 main {
   flex: 1;
   display: grid;
@@ -41,7 +45,9 @@ aside {
   overflow-y: auto;
 }
 
-aside h2 { margin: 0 0 10px; }
+aside h2 {
+  margin: 0 0 10px;
+}
 
 .link {
   list-style: none;
@@ -56,4 +62,21 @@ aside h2 { margin: 0 0 10px; }
   background: #f3f6f5;
   border: 1px solid #c9d5d2;
   border-radius: 4px;
+}
+
+section {
+  min-width: 0;
+}
+
+.controls {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 14px;
+  margin-bottom: 10px;
+}
+
+#main {
+  height: 600px;
+  border: 2px solid black;
+  border-radius: 6px;
 }
