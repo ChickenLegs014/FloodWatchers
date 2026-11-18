@@ -1,0 +1,76 @@
+<!doctype html>
+<!--- 
+	Warren Nixon & Aaron
+	0ct. 25-28 
+	Project Phase 3: Development - Part 1 (Core Logic) 
+--->
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Flood</title>
+    <link rel="stylesheet" href="Style.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+    />
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+
+    <link
+      rel="stylesheet"
+      href="https://pyscript.net/releases/2026.7.3/core.css"
+    />
+    <script
+      type="module"
+      src="https://pyscript.net/releases/2026.7.3/core.js"
+    ></script>
+  </head>
+  <body>
+    <header>
+      <h1>Description</h1>
+      <p>
+        This is a website for knowing where floods are based off of what other
+        people have incountered and have put for a warning so you can avoid bad
+        situations while driving
+      </p>
+    </header>
+
+    <main>
+      <aside>
+        <h2>Area warnings</h2>
+        <div class="link">
+          <p class="column">Warning</p>
+          <p class="column">Warning</p>
+          <p class="column">Warning</p>
+        </div>
+      </aside>
+
+      <section>
+        <div class="controls">
+          <label>Latitude <input id="latitude" class="control" /></label>
+          <label>Longitude <input id="longitude" class="control" /></label>
+          <label
+            >Zoom<input
+              type="range"
+              id="zoom"
+              class="control"
+              min="1"
+              max="20" /><span id="zoom-label"></span
+          ></label>
+        </div>
+        <div id="main"></div>
+        <script type="py" src="map.py"></script>
+      </section>
+
+      <aside>
+        <h2>Pins</h2>
+        <div class="link">
+          <p class="column">Pin</p>
+          <p class="column">Pin</p>
+          <p class="column">Pin</p>
+        </div>
+      </aside>
+    </main>
+  </body>
+</html>
