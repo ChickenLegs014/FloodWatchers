@@ -7,8 +7,7 @@ Module      : map.py
 Description : Creates a window with an interactive map
 '''
 
-# pyscript gives Python access to the page (document), to JavaScript
-# libraries like Leaflet (window), and to event listeners (when)
+# pyscript gives Python access to the page (document), to JavaScript. Leaflet (window), and event listeners (when)
 from pyscript import document, window, when  # Changed (added window and when)
 # converts Python lists into JavaScript values Leaflet knows how to use
 from pyscript.ffi import to_js
