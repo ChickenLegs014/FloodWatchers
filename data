@@ -1,0 +1,194 @@
+{
+    "@context": [
+        "https://geojson.org/geojson-ld/geojson-context.jsonld",
+        {
+            "@version": "1.1",
+            "wx": "https://api.weather.gov/ontology#",
+            "@vocab": "https://api.weather.gov/ontology#"
+        }
+    ],
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.7d8066d03a0159352fc1137e700c3d8366d0d165.001.1",
+            "type": "Feature",
+            "geometry": null,
+            "properties": {
+                "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.7d8066d03a0159352fc1137e700c3d8366d0d165.001.1",
+                "@type": "wx:Alert",
+                "id": "urn:oid:2.49.0.1.840.0.7d8066d03a0159352fc1137e700c3d8366d0d165.001.1",
+                "areaDesc": "Curry County; Roosevelt County; De Baca County; Chaves County Plains",
+                "geocode": {
+                    "SAME": [
+                        "035009",
+                        "035041",
+                        "035011",
+                        "035005"
+                    ],
+                    "UGC": [
+                        "NMZ235",
+                        "NMZ236",
+                        "NMZ237",
+                        "NMZ238"
+                    ]
+                },
+                "affectedZones": [
+                    "https://api.weather.gov/zones/forecast/NMZ235",
+                    "https://api.weather.gov/zones/forecast/NMZ236",
+                    "https://api.weather.gov/zones/forecast/NMZ237",
+                    "https://api.weather.gov/zones/forecast/NMZ238"
+                ],
+                "references": [],
+                "sent": "2026-11-18T12:30:00-07:00",
+                "effective": "2026-11-18T12:30:00-07:00",
+                "onset": "2026-11-19T00:00:00-07:00",
+                "expires": "2026-11-18T20:30:00-07:00",
+                "ends": "2026-11-19T09:00:00-07:00",
+                "status": "Actual",
+                "messageType": "Alert",
+                "category": "Met",
+                "severity": "Moderate",
+                "certainty": "Likely",
+                "urgency": "Expected",
+                "event": "Dense Fog Advisory",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "senderName": "NWS Albuquerque NM",
+                "headline": "Dense Fog Advisory issued November 18 at 12:30PM MST until November 19 at 9:00AM MST by NWS Albuquerque NM",
+                "description": "* WHAT...Visibility one quarter mile or less in dense fog.\n\n* WHERE...Curry County, De Baca County, Roosevelt County, and Chaves\nCounty Plains.\n\n* WHEN...From midnight tonight to 9 AM MST Thursday.\n\n* IMPACTS...Low visibility could make driving conditions hazardous.",
+                "instruction": "If driving, slow down, use your headlights, and leave plenty of\ndistance ahead of you.",
+                "response": "Execute",
+                "note": null,
+                "parameters": {
+                    "AWIPSidentifier": [
+                        "NPWABQ"
+                    ],
+                    "WMOidentifier": [
+                        "WWUS75 KABQ 181930"
+                    ],
+                    "NWSheadline": [
+                        "DENSE FOG ADVISORY IN EFFECT FROM MIDNIGHT TONIGHT TO 9 AM MST THURSDAY"
+                    ],
+                    "BLOCKCHANNEL": [
+                        "EAS",
+                        "NWEM",
+                        "CMAS"
+                    ],
+                    "VTEC": [
+                        "/O.NEW.KABQ.FG.Y.0014.261119T0700Z-261119T1600Z/"
+                    ],
+                    "eventEndingTime": [
+                        "2026-11-19T09:00:00-07:00"
+                    ]
+                },
+                "scope": "Public",
+                "code": "IPAWSv1.0",
+                "language": "en-US",
+                "web": "http://www.weather.gov",
+                "eventCode": {
+                    "SAME": [
+                        "NWS"
+                    ],
+                    "NationalWeatherService": [
+                        "FGY"
+                    ]
+                }
+            }
+        },
+        {
+            "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.af347ceaba2b127f274d7b22dde411a79c3501b2.001.1",
+            "type": "Feature",
+            "geometry": null,
+            "properties": {
+                "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.af347ceaba2b127f274d7b22dde411a79c3501b2.001.1",
+                "@type": "wx:Alert",
+                "id": "urn:oid:2.49.0.1.840.0.af347ceaba2b127f274d7b22dde411a79c3501b2.001.1",
+                "areaDesc": "Guadalupe Mountains of Eddy County; Eddy County Plains; Northern Lea County; Central Lea County; Gaines; Dawson; Guadalupe Mountains Above 7000 Feet; Guadalupe and Delaware Mountains",
+                "geocode": {
+                    "SAME": [
+                        "035015",
+                        "035025",
+                        "048165",
+                        "048115",
+                        "048109"
+                    ],
+                    "UGC": [
+                        "NMZ027",
+                        "NMZ028",
+                        "NMZ029",
+                        "NMZ033",
+                        "TXZ045",
+                        "TXZ046",
+                        "TXZ270",
+                        "TXZ271"
+                    ]
+                },
+                "affectedZones": [
+                    "https://api.weather.gov/zones/forecast/NMZ027",
+                    "https://api.weather.gov/zones/forecast/NMZ028",
+                    "https://api.weather.gov/zones/forecast/NMZ029",
+                    "https://api.weather.gov/zones/forecast/NMZ033",
+                    "https://api.weather.gov/zones/forecast/TXZ045",
+                    "https://api.weather.gov/zones/forecast/TXZ046",
+                    "https://api.weather.gov/zones/forecast/TXZ270",
+                    "https://api.weather.gov/zones/forecast/TXZ271"
+                ],
+                "references": [],
+                "sent": "2026-11-18T12:14:00-07:00",
+                "effective": "2026-11-18T12:14:00-07:00",
+                "onset": "2026-11-19T00:00:00-07:00",
+                "expires": "2026-11-18T22:30:00-07:00",
+                "ends": "2026-11-19T09:00:00-07:00",
+                "status": "Actual",
+                "messageType": "Alert",
+                "category": "Met",
+                "severity": "Moderate",
+                "certainty": "Likely",
+                "urgency": "Expected",
+                "event": "Dense Fog Advisory",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "senderName": "NWS Midland/Odessa TX",
+                "headline": "Dense Fog Advisory issued November 18 at 12:14PM MST until November 19 at 9:00AM MST by NWS Midland/Odessa TX",
+                "description": "* WHAT...Visibility below a 1/2 mile in dense fog.\n\n* WHERE...Guadalupe Mountains of west Texas and Southeast New Mexico,\nEddy County Plains, Northern Lea, Central Lea, Gaines, and Dawson.\n\n* WHEN...From midnight MST /1 AM CST/ tonight to 9 AM MST /10 AM CST/\nThursday.\n\n* IMPACTS...Low visibility could make driving conditions hazardous.",
+                "instruction": "If driving, slow down, use your headlights, and leave plenty of\ndistance ahead of you.",
+                "response": "Execute",
+                "note": null,
+                "parameters": {
+                    "AWIPSidentifier": [
+                        "NPWMAF"
+                    ],
+                    "WMOidentifier": [
+                        "WWUS74 KMAF 181914"
+                    ],
+                    "NWSheadline": [
+                        "DENSE FOG ADVISORY IN EFFECT FROM MIDNIGHT MST /1 AM CST/ TONIGHT TO 9 AM MST /10 AM CST/ THURSDAY"
+                    ],
+                    "BLOCKCHANNEL": [
+                        "EAS",
+                        "NWEM",
+                        "CMAS"
+                    ],
+                    "VTEC": [
+                        "/O.NEW.KMAF.FG.Y.0006.261119T0700Z-261119T1600Z/"
+                    ],
+                    "eventEndingTime": [
+                        "2026-11-19T09:00:00-07:00"
+                    ]
+                },
+                "scope": "Public",
+                "code": "IPAWSv1.0",
+                "language": "en-US",
+                "web": "http://www.weather.gov",
+                "eventCode": {
+                    "SAME": [
+                        "NWS"
+                    ],
+                    "NationalWeatherService": [
+                        "FGY"
+                    ]
+                }
+            }
+        }
+    ],
+    "title": "Current watches, warnings, and advisories for New Mexico",
+    "updated": "2026-11-18T22:56:37+00:00"
+}
