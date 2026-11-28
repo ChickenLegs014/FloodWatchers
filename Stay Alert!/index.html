@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Alerts</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+    />
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://pyscript.net/releases/2026.7.3/core.css"
+    />
+    <script
+      type="module"
+      src="https://pyscript.net/releases/2026.7.3/core.js"
+    ></script>
+  </head>
+  <body>
+    <header>
+      <h1>Stay Alert!</h1>
+      <p>
+        Shows active weather alerts on a map using National Weather Service's
+        data. Type in a state or zip code to move the map
+      </p>
+    </header>
+    <main>
+      <aside>
+        <h2>Alerts</h2>
+        <div class="link" id="warnings">
+          <p class="column">Loading alerts...</p>
+        </div>
+      </aside>
+      <section>
+        <div class="controls">
+          <label>Latitude <input id="latitude" class="control" /></label>
+          <label>Longitude <input id="longitude" class="control" /></label>
+          <label
+            >Zoom<input
+              type="range"
+              id="zoom"
+              class="control"
+              min="1"
+              max="20" /><span id="zoom-label"></span
+          ></label>
+        </div>
+        <div class="controls">
+          <label
+            >State or zip code <input id="zip" placeholder="New Mexico or NM"
+          /></label>
+          <button id="zip-button" type="button">Search</button>
+        </div>
+        <p id="status"></p>
+        <div id="main"></div>
+        <script type="py" src="map.py"></script>
+      </section>
+      <aside>
+        <h2>Warning Levels</h2>
+        <div class="link">
+          <p class="extreme">Extreme</p>
+          <p class="severe">Severe</p>
+          <p class="moderate">Moderate</p>
+          <p class="minor">Minor</p>
+        </div>
+      </aside>
+    </main>
+  </body>
+</html>

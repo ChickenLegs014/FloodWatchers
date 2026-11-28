@@ -1,0 +1,151 @@
+@font-face {
+  font-family: noto_sans_jp;
+  src: url(Fonts/noto_sans_jp.ttf);
+}
+
+body {
+  font-family: noto_sans_jp;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  padding: 14px;
+  background:rgb(69, 90, 160);
+  color: #14211f;
+  height: 100vh;
+  margin: 0;
+}
+
+/* Boxes: header, side panels */
+header, aside {
+  color: white;
+  background:rgb(110, 144, 255);
+  border: 2px solid rgb(28, 37, 66);;
+  border-radius: 6px;
+}
+
+header {
+  flex: none;
+  padding: 18px 24px;
+  text-align: center;
+}
+
+header h1 {
+  color:rgb(44, 58, 104);
+  margin: 0 0 4px;
+}
+
+header p {
+  color:rgb(44, 58, 104);
+  margin: 0;
+}
+
+/* Three columns: Area warnings | Map | Pins */
+main {
+  flex: 1;
+  display: grid;
+  grid-template-columns: 220px 1fr 270px;
+  gap: 14px;
+  min-height: 0;
+}
+
+aside {
+  display: flex;
+  flex-direction: column;
+  min-height: 0;
+  padding: 14px;
+  overflow-y: auto;
+}
+
+aside h2 {
+  color:rgb(44, 58, 104);
+  text-align: center;
+  flex: none;
+  margin: 0 0 10px;
+}
+
+.link {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  gap: 8px;
+}
+
+.column {
+  color: black;
+  padding: 9px 10px;
+  background: #f3f6f5;
+  border: 1px solid #c9d5d2;
+  border-radius: 4px;
+}
+
+.extreme {
+  color: #803341;
+  padding: 9px 10px;
+  background: #ff6481;
+  border: 1px solid #af4558;
+  border-radius: 4px;
+}
+
+.severe {
+  color: #855134;
+  padding: 9px 10px;
+  background: #ff9d64;
+  border: 1px solid #bb7349;
+  border-radius: 4px;
+}
+
+.moderate {
+  color: #918139;
+  padding: 9px 10px;
+  background: #ffe364;
+  border: 1px solid #c9b24f;
+  border-radius: 4px;
+}
+
+.minor {
+  color: #85963c;
+  padding: 9px 10px;
+  background: #e3ff64;
+  border: 1px solid #b7ce52;
+  border-radius: 4px;
+}
+
+section {
+  color:rgb(28, 37, 66);
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  min-height: 0;
+}
+
+.controls {
+  color:rgb(28, 37, 66);
+  flex: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 14px;
+  margin-bottom: 10px;
+}
+
+#main {
+  flex: 1;
+  min-height: 0;
+  border: 2px solid rgb(28, 37, 66);;
+  border-radius: 6px;
+}
+
+/* scrolls vertically inside it instead of the whole page */
+#warnings {
+  flex: 1;
+  min-height: 0;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+#warnings .column {
+  box-sizing: border-box;
+  max-width: 100%;
+  overflow-wrap: anywhere;
+}
